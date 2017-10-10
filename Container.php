@@ -1,6 +1,6 @@
 <?php
 /**
- * StupidlySimple Framework - A PHP Framework For Lazy Developers
+ * StupidlySimple Framework - A PHP Framework For Lazy Developers.
  *
  * Copyright (c) 2017 Fariz Luqman
  *
@@ -22,10 +22,10 @@
  * TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
- * @package     StupidlySimple
  * @author      Fariz Luqman <fariz.fnb@gmail.com>
  * @copyright   2017 Fariz Luqman
  * @license     MIT
+ *
  * @link        https://stupidlysimple.github.io/
  */
 
@@ -33,7 +33,7 @@ namespace Simplyfier\DI;
 
 /**
  * The Application Container
- * -----------------------------------------------------------------------
+ * -----------------------------------------------------------------------.
  *
  * Containers are used for dependency injection (DI), which allows us to
  * reduce coupling. It is a rather simple piece of code, but it is
@@ -44,10 +44,10 @@ namespace Simplyfier\DI;
 class Container
 {
     /**
-     * Put a value inside the container
+     * Put a value inside the container.
      *
      * @param mixed $property_name property name that we want to register
-     * @param mixed $value the value/array/object/closure
+     * @param mixed $value         the value/array/object/closure
      *
      * @since 0.5.0
      */
@@ -57,9 +57,10 @@ class Container
     }
 
     /**
-     * Checks whether the container has a property
+     * Checks whether the container has a property.
      *
      * @param $property_name
+     *
      * @return bool
      *
      * @since 0.5.0
